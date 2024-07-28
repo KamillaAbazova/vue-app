@@ -6,7 +6,7 @@
       <MovieGrid :movies="movies" :wishlist="wishlist" @toggleWishlist="toggleWishlist" />
     </div>
   </div>
-    <WishList v-if="wishlist.length > 0" :wishlist="wishlist" @remove="toggleWishlist" />
+    <WishList v-if="wishlist.length > 0" :wishlist="wishlist" @remove="toggleWishlist" @update:wishlist="updateWishlist" />
   </div>
 </template>
 
@@ -44,6 +44,10 @@ export default {
       if (cookie) {
         this.wishlist = JSON.parse(cookie.split('=')[1]);
       }
+    },
+     updateWishlist(newWishlist) {
+      this.wishlist = newWishlist;
+      this.saveWishlist();
     }
   },
   created() {

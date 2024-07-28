@@ -5,55 +5,71 @@
       "title": "Taken",
       "description": "A retired CIA agent travels across Europe and relies on his old skills to save his estranged daughter, who has been kidnapped while on a trip to Paris.",
       "tag": "Thriller",
-      "image": "./taken.jpeg"
+      "image": "./taken.jpeg",
+      "isWatched": false,
+      "rating": 0
     },
     {
       "id": 2,
       "title": "Lord of the Rings",
       "description": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
       "tag": "Adventure",
-      "image": "./lord_of_rings.jpg"
+      "image": "./lord_of_rings.jpg",
+      "isWatched": false,
+      "rating": 0
     },
     {
       "id": 3,
       "title": "Shutter Island",
       "description": "The implausible escape of a brilliant murderess brings U.S. Marshal Teddy Daniels and his partner to Ashecliffe Hospital, a fortress-like insane asylum located on a remote island.",
       "tag": "Thriller",
-      "image": "./shutter_island.jpg"
+      "image": "./shutter_island.jpg",
+      "isWatched": false,
+      "rating": 0
     },
     {
       "id": 4,
       "title": "Pretty Woman",
       "description": "Edward, a rich entrepreneur, hires Vivian, a prostitute, to accompany him to a few social events. Trouble ensues when he falls in love with her and they try to bridge the gap between their worlds.",
       "tag": "Comedy",
-      "image": "./pretty_woman.jpg"
+      "image": "./pretty_woman.jpg",
+      "isWatched": false,
+      "rating": 0
     },
     {
         "id": 5,
         "title": "Avatar",
         "description": "A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
         "tag": "Fantasy",
-        "image": "./avatar.jfif"
+        "image": "./avatar.jfif",
+        "isWatched": false,
+        "rating": 0
       },
       {
         "id": 6,
         "title": "The Gentlemen",
         "description": "An American expat tries to sell off his highly profitable marijuana empire in London, triggering plots, schemes, bribery and blackmail in an attempt to steal his domain out from under him.",
         "tag": "Action",
-        "image": "./gentlemen.jfif"
+        "image": "./gentlemen.jfif",
+        "isWatched": false,
+        "rating": 0
       },
       {
         "id": 7,
         "title": "Gladiator",
         "description": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
         "tag": "Adventure",
-        "image": "./gladiator.jfif"
+        "image": "./gladiator.jfif",
+        "isWatched": false,
+        "rating": 0
       },
       {
         "id": 8,
         "title": "Hitch",
         "description": "A smooth-talking man falls for a hardened columnist while helping a shy accountant woo a beautiful heiress.",
         "tag": "Comedy",
-        "image": "./hitch.jfif"
+        "image": "./hitch.jfif",
+        "isWatched": false,
+        "rating": 0
       }
   ]
